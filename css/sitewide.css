@@ -33,9 +33,6 @@ body {
 	color: #222;
 }
 
-.wrapper {
-
-}
 
 li {
 	color: #C57013;
@@ -52,17 +49,22 @@ h1 {
 h2 {
 	color: #E8B01F;
 	margin-left: 1.25em;
+	margin-bottom: 0.25em;
 }
 
 p {
 	color: #C57013;
 }
 
+h3 {
+	color: #E8B01F;
+}
+
 ul {
 	margin-bottom: 0.5em;
-	margin-top: 0.5em;
+	margin-top: 0.75em;
 	margin-left: 1em;
-	margin-right:50em;
+	margin-right:30em;
 	background:#FFE4BB;
 	padding: 1em;
 	padding-bottom: 1em;
@@ -80,7 +82,7 @@ ul {
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
-	width: 90%;
+	width: 65%;
 	max-width: 1200px;
 	padding: 2em;
 	border: 5px solid #eee;
