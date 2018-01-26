@@ -47,7 +47,9 @@ h1 {
 	font-family: Georgia, "Times New Roman", Times,serif;
 	line-height: 1em;
 	color: #E8B01F;
-	padding-top: 0em;
+	padding-top: 0.15em;
+	padding-bottom: 0em;
+	text-align: center;
 }
 
 h2 {
