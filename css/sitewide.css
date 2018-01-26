@@ -30,7 +30,7 @@ body {
 	font-family: Georgia, "Times New Roman", Times,serif;
 	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
-	line-height: 1.5em;
+	line-height: 1.75em;
 	color: #222;
 	background: #FFF3E2;
 }
@@ -47,18 +47,20 @@ h1 {
 	font-family: Georgia, "Times New Roman", Times,serif;
 	line-height: 1em;
 	color: #E8B01F;
+	padding-top: 0em;
 }
 
 h2 {
 	color: #E8B01F;
 	margin-left: 1.25em;
-	margin-bottom: 0.25em;
+	margin-bottom: 0.5em;
 	font-family: Georgia, "Times New Roman", Times,serif;
 }
 
 p {
 	color: #C57013;
 	font-family: 'Nunito', sans-serif;
+	padding-top: 0.5em;
 }
 
 h3 {
@@ -84,12 +86,14 @@ ul {
 	something wrong. 	
 */
 .container {
-	margin-top: 1em;
+	margin-top: 5em;
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
 	width: 800px;
 	padding: 2em;
+	padding-top: 0em;
+	padding-bottom: 0.50em;
 	border: 5px solid #C57013;
 	background-color: #FFF3E2
 }
