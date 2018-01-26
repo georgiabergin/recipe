@@ -1,0 +1,88 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	font-family: Georgia, "Times New Roman", Times,serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #222;
+}
+
+.wrapper {
+
+}
+
+li {
+	color: #C57013;
+	padding-left: 0em;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 3em;
+	line-height: 1em;
+	color: #E8B01F;
+}
+
+h2 {
+	color: #E8B01F;
+	margin-left: 1.25em;
+}
+
+p {
+	color: #C57013;
+}
+
+ul {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	margin-right:50em;
+	background:#FFE4BB;
+	padding: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 1em;
+	border: 2px solid #E8B01F;
+}
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.container {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1200px;
+	padding: 2em;
+	border: 5px solid #eee;
+}
+
