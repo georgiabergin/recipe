@@ -28,9 +28,11 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 
 body {
 	font-family: Georgia, "Times New Roman", Times,serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #222;
+	background: #FFF3E2;
 }
 
 
@@ -42,6 +44,7 @@ li {
 h1 {
 	font-weight: normal;
 	font-size: 3em;
+	font-family: Georgia, "Times New Roman", Times,serif;
 	line-height: 1em;
 	color: #E8B01F;
 }
@@ -50,14 +53,17 @@ h2 {
 	color: #E8B01F;
 	margin-left: 1.25em;
 	margin-bottom: 0.25em;
+	font-family: Georgia, "Times New Roman", Times,serif;
 }
 
 p {
 	color: #C57013;
+	font-family: 'Nunito', sans-serif;
 }
 
 h3 {
 	color: #E8B01F;
+	font-family: Georgia, "Times New Roman", Times,serif;
 }
 
 ul {
@@ -85,6 +91,7 @@ ul {
 	width: 65%;
 	max-width: 1200px;
 	padding: 2em;
-	border: 5px solid #eee;
+	border: 5px solid #C57013;
+	background-color: #FFF3E2
 }
 
